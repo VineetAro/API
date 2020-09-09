@@ -1,0 +1,22 @@
+Status: PASS
+Time Taken: 425
+Size: 0
+Timestamp: Wed Sep 09 04:13:41 IST 2020
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [sessionId]
+Performed transfer [serverUrl]
+----------------------------------------------------
+sessionId transferred [[00D0K0000024Rhz!AREAQOIpEmZ8otZNPsxuVd2ihFbqwO1zjq6hMYLtEsm9R90F6TFlG.JPBgPKOxvhGQzZuOra12PtpNNIaaONyfuvFZP9miBt]] from [SOAP Request.Response] to [SFDCProperties.SessionId]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:sessionId[1]
+------------ target path -------------
+
+serverUrl transferred [[https://vineetarora123-dev-ed.my.salesforce.com/services/Soap/c/49.0/00D0K0000024Rhz]] from [SOAP Request.Response] to [SFDCProperties.?ServerUrl?]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:serverUrl[1]
+------------ target path -------------
+
