@@ -1,7 +1,0 @@
-Status: PASS
-Time Taken: 4
-Size: 0
-Timestamp: Wed Sep 09 04:13:41 IST 2020
-TestStep: SFDCProperties
-
------------------ Messages ------------------------------
